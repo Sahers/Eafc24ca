@@ -205,7 +205,10 @@ background-color: var(--input-color);
 .ss{
   background-image:url(back.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
   padding:35px 20px;
 }
 .ss div img{
