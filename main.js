@@ -477,5 +477,8 @@ window.addEventListener('scroll',function(){
   }
 })
 up.addEventListener('click',function(){
-  scrollTo(0,0)
+    window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
 }) 
